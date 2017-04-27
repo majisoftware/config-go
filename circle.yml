@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: 6
+
+test:
+  override:
+    - go vet ./...
+    - go test -v -race ./...
