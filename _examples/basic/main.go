@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/majicloud/maji-config/config-go"
+	"github.com/majisoftware/config-go"
 )
 
 func main() {
